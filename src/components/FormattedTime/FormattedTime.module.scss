@@ -1,6 +1,6 @@
 @import '../../styles/settings.scss';
 
-.timer {
+.component {
     width: 1200px;
     justify-content: center;
     display: flex;
@@ -9,15 +9,6 @@
 
 }
 
-@keyframes slideIn {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
 
 @media (max-width: 768px) {
     .timer {
