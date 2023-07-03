@@ -1,0 +1,31 @@
+@import '../../styles/settings.scss';
+
+.timer {
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    animation: slideIn 1s ease-out;
+
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .timer {
+        margin-top: 260px;
+
+        span {
+            font-size: ($base-size * 3);
+
+        }
+    }
+}
